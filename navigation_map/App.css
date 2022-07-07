@@ -1,0 +1,84 @@
+﻿/*styling.css*/
+/*add font family, background image*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #FFF;
+    position: relative;
+    background: #13cc55;
+    height: 100vh;
+    margin: 0;
+}
+
+.fa-map-marker-alt,
+.fa-dot-circle {
+  color: #5bc0de;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  margin: 0;
+  padding: 10px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.jumbotron h2 {
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+/*map*/
+#googleMap {
+  width: 100%;
+  height: 450px;
+  margin: 10px auto;
+}
+
+/*output box*/
+#output {
+  font-size: 21.5em;
+  margin: 20px auto;
+}
+
+#mode {
+  color: black;
+}
+
+form.form-horizontal {
+  display: flex;
+  gap:10px;
+}
+
+.form-group {
+  flex:1
+}
+
+.form-group input{
+  width: 100%;
+  padding: 10px 0;
+  text-indent: 10px;
+}
+
+button.submit{
+  width:100%;
+  padding: 10px;
+}
+
+.submit-div{
+  margin:10px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+.alert-info,
+.alert-danger {
+    font-size: 1.5rem;
+}
